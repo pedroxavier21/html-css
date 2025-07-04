@@ -66,6 +66,7 @@ input::placeholder{
 }
 .lembrar label{
     font-size: 1.1em;
+    cursor: pointer;
    
 }
 
@@ -86,6 +87,7 @@ div.lembrar input{
     margin-top: 20px;
     margin-bottom: 20px;
     transition: background-color 0.4s ease;
+    cursor: pointer;
 }
 .enviar input:hover{
     background-color: rgb(80, 80, 255);
