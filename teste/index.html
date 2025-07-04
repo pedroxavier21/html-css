@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando antigos aprendizados</title>
+    <link rel="stylesheet" href="/teste/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="formularios">
+
+            <h1>Login</h1>
+            <p>Seja bem-vindo novamente!</p>
+               <hr>
+            <form action="login.php" method="get">
+                <div class="email">
+                    <label for="inome"> Email</label> <br>
+                    <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required >
+                </div>
+                <div class="senha">
+                    <label for="isenha"> Senha</label><br>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Senha" maxlength="32" minlength="8" required>
+
+                <div class="lembrar">
+                    <input type="checkbox" name="lembrar" id="ilembrar" >
+                    <label for="ilembrar">lembrar-me</label>
+                </div>
+
+                <div class="enviar">
+                    <input type="submit" value="Entrar">
+                </div>
+                <div class="reset-sen">
+                     <a href="#">Cadastrar</a> | <a href="#">Esqueceu sua senha? </a>
+                </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
